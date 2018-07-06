@@ -1,7 +1,7 @@
 function howManyHundreds(n){
-    var remainder = n % 100;
-    var hundreds = (n - remainder)/100;
-    return hundreds;
+  var remainder = n % 100;
+  var hundreds = (n - remainder)/100;
+  return hundreds;
 }
 
 console.log(howManyHundreds(1000), "=?", 10);
